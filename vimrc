@@ -2,6 +2,7 @@ execute pathogen#infect()
 
 filetype on
 filetype plugin on
+
 syntax on
 colorscheme Tomorrow-Night
 set guifont=Fira\ Code:h14
@@ -39,3 +40,5 @@ nmap <leader>n :NERDTreeToggle<CR>
 nmap <leader>j :NERDTreeFinder<CR>
 
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
+
+let g:gitgutter_sign_column_always=1
