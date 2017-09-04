@@ -31,3 +31,11 @@ set showmatch
 noremap <Leader>r :CommandTFlush<CR>
 
 set wildignore+=*.log,*.sql,*.cache
+
+set laststatus=2
+
+let NERDTreeShowHidden=1
+nmap <leader>n :NERDTreeToggle<CR>
+nmap <leader>j :NERDTreeFinder<CR>
+
+let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
