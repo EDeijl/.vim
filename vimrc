@@ -22,10 +22,10 @@ set background=dark
 colorscheme one
 set guifont=Fira\ Code:h14
 set colorcolumn=90
-set number
+set number relativenumber
 let mapleader=" "
 
-map <leader>s :source ~/vim/vimrc<CR>
+map <leader>s :source ~/.vim/vimrc<CR>
 set hidden
 set history=100
 
@@ -72,5 +72,3 @@ noremap <leader>yy "*Y
 
 " Preserve indentation while pasting text from the OSX clipboard
 noremap <leader>p :set paste<CR>:put *<CR>:set nopaste<CR>
-
-let g:ruby_host_prog = '~/.rbenv/versions/2.0.0-p648/bin/neovim-ruby-host'
